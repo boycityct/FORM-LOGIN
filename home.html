@@ -2,11 +2,53 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Academy</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
 
   <body>
-    <h1>🎉 Đăng nhập thành công</h1>
-    <p>Chào mừng bạn đến trang web.</p>
+    <header class="header">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>IT Academy</span>
+        </div>
+
+        <!-- Menu -->
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Courses</a>
+          <a href="#">Learning Paths</a>
+          <a href="#">Instructors</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <!-- Search -->
+        <div class="search-box">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search courses..." />
+        </div>
+
+        <!-- Auth -->
+        <div class="auth">
+          <a href="#" class="login">Login</a>
+
+          <a href="#" class="register">Register</a>
+
+          <button class="start-btn">Start Learning</button>
+        </div>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
   </body>
 </html>

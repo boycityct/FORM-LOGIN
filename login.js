@@ -18,3 +18,8 @@ function login() {
     message.innerText = "Sai username hoặc password!";
   }
 }
+const searchInput = document.querySelector(".search-box input");
+
+searchInput.addEventListener("keyup", function () {
+  console.log("Searching:", this.value);
+});
