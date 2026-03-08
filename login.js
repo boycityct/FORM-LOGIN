@@ -9,6 +9,10 @@ function login() {
   if (username === correctUser && password === correctPass) {
     message.style.color = "green";
     message.innerText = "Đăng nhập thành công!";
+
+    setTimeout(function () {
+      window.location.href = "home.html";
+    }, 1000);
   } else {
     message.style.color = "red";
     message.innerText = "Sai username hoặc password!";
